@@ -1,0 +1,105 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EnvioDinero</title>
+    <link rel="stylesheet" href="estilo.css" type />
+  </head>
+  <body>
+    <div class="header">
+      <nav class="barraNavegacion">
+        <ul>
+          <li>
+            <a href="inicioSesion.html" class="button"
+              ><span>INICIAR SESION</span></a
+            >
+          </li>
+          <li>
+            <a href="https://www.google.com/">
+              <div class="search">
+                <form action="#">
+                  <input
+                    type="text"
+                    placeholder=" Busqueda Web"
+                    name="search"
+                  />
+                  <button>
+                    <i class="fa fa-search" style="font-size: 18px"> </i>
+                  </button>
+                </form>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="button"><span>CERRAR SESION</span></a>
+          </li>
+          <!--   <header class="MenuServicios">
+              <li class="Desplegable">SERVICIOS</li>
+              <ul>
+                <li><a rel="stylesheet" href=""> Agregar destinatario </a></li>
+                <li><a rel="stylesheet" href=""> Eliminar destinatario </a></li>
+                <li><a rel="stylesheet" href=""> Agregar dinero</a></li>
+                <li><a rel="stylesheet" href=""> Enviar dinero</a></li>
+                <li><a rel="stylesheet" href=""> Consultar Saldo</a></li>
+                <li><a rel="stylesheet" href=""> Consultar transaccion</a></li>
+                <li>
+                  <a rel="stylesheet" href=""> Consultar lista de monedas </a>
+                </li>
+                <li><a rel="stylesheet" href=""> Agregar Moneda </a></li>
+                <li><a rel="stylesheet" href=""> Editar Moneda</a></li>
+                <li>
+                  <a rel="stylesheet" href="">
+                    Habilitar/ deshabilitar moneda</a
+                  >
+                </li>
+                <li><a rel="stylesheet" href=""> Editar tarifa envio</a></li>
+              </ul>
+            </header>-->
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <table class="tablaEnvioDinero">
+        <tr>
+          <td>Destinatario</td>
+          <td>
+            <input
+              class="EnvioDinero"
+              type="text"
+              name="Destinatario"
+              id="Destinatario"
+              placeholder="Destitario"
+              maxlength="200"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Monto en moneda local</td>
+          <td>
+            <input
+              class="EnvioDinero"
+              type="text"
+              name="valorDinero"
+              id="valorDinero"
+              placeholder="Valor"
+              maxlength="200"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Fecha</td>
+          <td>
+            <input class="EnvioDinero" type="date" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button><a href="AgregarDestinatario.html">ACeptar</a></button>
+            <button><a href="index.html">Cancelar</a></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agregar destinatario</title>
+    <link rel="stylesheet" href="estilo.css" type />
+  </head>
+  <body>
+    <div class="header">
+      <nav class="barraNavegacion">
+        <ul>
+          <li>
+            <a href="index.html" class="button"
+              ><span>INICIO</span></a
+            >
+          </li>
+              <li>
+                <a href="inicioSesion.html" class="button"
+                  ><span>INICIAR SESION</span></a
+                >
+              </li>
+              <li>
+                <a href="https://www.google.com/">
+                  <div class="search">
+                    <form action="#">
+                      <input
+                        type="text"
+                        placeholder=" Busqueda Web"
+                        name="search"
+                      />
+                      <button>
+                        <i class="fa fa-search" style="font-size: 18px"> </i>
+                      </button>
+                    </form>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="button"><span>CERRAR SESION</span></a>
+              </li>
+              <!--   <header class="MenuServicios">
+                <li class="Desplegable">SERVICIOS</li>
+                <ul>
+                  <li><a rel="stylesheet" href=""> Agregar destinatario </a></li>
+                  <li><a rel="stylesheet" href=""> Eliminar destinatario </a></li>
+                  <li><a rel="stylesheet" href=""> Agregar dinero</a></li>
+                  <li><a rel="stylesheet" href=""> Enviar dinero</a></li>
+                  <li><a rel="stylesheet" href=""> Consultar Saldo</a></li>
+                  <li><a rel="stylesheet" href=""> Consultar transaccion</a></li>
+                  <li>
+                    <a rel="stylesheet" href=""> Consultar lista de monedas </a>
+                  </li>
+                  <li><a rel="stylesheet" href=""> Agregar Moneda </a></li>
+                  <li><a rel="stylesheet" href=""> Editar Moneda</a></li>
+                  <li>
+                    <a rel="stylesheet" href="">
+                      Habilitar/ deshabilitar moneda</a
+                    >
+                  </li>
+                  <li><a rel="stylesheet" href=""> Editar tarifa envio</a></li>
+                </ul>
+              </header>-->
+            </ul>
+        
+          </nav>
+        </div>
+    <table class="tablaDestinatario">
+        <thead>
+
+            <tr>
+              <th><h5>AGREGAR DESTINATARIO</h5></th>
+                <th><button><a href="index.html">AGREGAR</a></button></th>
+                <td><button><a href="index.html">Cancelar</a></button></td>
+                </tr>
+            </tr>
+          </th>
+
+          <td>
+            <h5>Correo electronico</h5>
+            <input
+              class="cajaRegistro1"
+              type="text"
+              name="correo-electronico"
+              id="correo-electronico"
+              placeholder="Correo Electronico"
+            />
+          </td>
+          <td>
+            <h5>Tipo Documento</h5>
+            <select
+              class="cajaRegistro1"
+              name="documento"
+              placeholder="Documento"
+            >
+              <option value="DocumentoIdentidad">
+                Documento de identidad
+              </option>
+              <option value="pasaporte">Pasaporte</option>
+            </select>
+          </td>
+          <td>
+            <h5>Numero Documento</h5>
+            <input
+              class="cajaRegistro1"
+              type="text"
+              name="TipoDoc"
+              id="documento"
+              placeholder="Numero"
+            />
+          </td>
+
+          <tr>
+
+            <th><h5>ELIMINAR DESTINATARIO</h5></th>
+            <th><button><a href="EliminarDestino.html">ELIMINAR DESTINATARIO</a>
+            </button></th> 
+           </tr>
+        </thead>
+      </table>
+  </body>
+</html>
